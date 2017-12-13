@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Jobs</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../hoofd.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<nav>
+
+    <ul>
+
+        <li class="navtext"><a href="../home/home.html">Home</a></li>
+        <li class="navtext"><a href="../over/over.html">Over</a></li>
+        <li class="navtext"><a href="jobs.html">Jobs</a></li>
+        <li class="navtext"><a href="../contact/contact.html">Contact</a></li>
+
+    </ul>
+
+    </nav>
+
+    <div id="slideShow">
+
+    </div>
+
+    <main>
+
+    <section class="text">
+        <h2>WERKEN BIJ ESPRESSOBAR CHAVEZ</h2>
+        <p>Espressobar Chavez is als een tweede huiskamer. Ons horeca-concept draait om koffie, health, genieten en gezelligheid. Floreer jij in zo’n ongedwongen sfeer en bezorg jij anderen graag een fijn moment in zijn of haar dag?</p><p> Is koffie jouw middle name? Dan zou je zomaar in ons team kunnen passen. Scroll verder voor de vacatures of stuur ons een open sollicitatie.</p>
+    </section>
+
+    <section class="text">
+        <h2>WIL JE WERKEN BIJ ESPRESSOBAR CHAVEZ?</h2>
+        <p>- Jij wilt gasten een fijn moment in hun dag bezorgen. Iedere klant, iedere dag weer.</p>
+        <p>- Flexibele werktijden zijn voor jou geen probleem.</p>
+        <p>- Je pakt zaken met passie aan.</p>
+        <p>- Je snapt ons concept en draagt het graag uit.</p>
+        <p>- Niet alleen de gasten, maar ook je collega’s kunnen rekenen op jouw glimlach.</p>
+    </section>
+
+
+    </main>
+     <footer><p>Colin Keppel</p></footer>
+    <script>
+        var photo = ["url(jobs-banner.jpg)", "url(jobs-banner2.jpg)", "url(jobs-banner3.jpg)"];
+        var photoNumber  =  1;
+        window.setInterval(function(){
+            document.getElementById('slideShow').style.backgroundImage = photo[photoNumber];
+            photoNumber++;
+            if (photoNumber > 2) {
+                photoNumber = 0;
+            };
+        }, 3000);
+    </script>
+    </body>
+
+
+</html>

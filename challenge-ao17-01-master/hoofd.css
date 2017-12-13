@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+    body {
+        background-color: #353434;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    nav {
+        justify-content: center;
+        display: flex;
+        padding: 5px 0;
+        background-color: #522e0b;
+    }
+
+	li {
+		display: inline-flex;
+		margin: 0px 1vw;
+		font-size: 3vh;
+	}
+
+	a {
+		text-decoration: none;
+		color: #ffffff;
+	}
+
+	#banner {
+		background-image: url(home/home-banner.jpg);
+		width: 100%;
+		height: 200px;
+		background-position: center;
+		display: flex;
+	}
+
+	#foto1 {
+		width: 170px;
+		height: 170px;
+		align-self: center;
+		margin: auto;
+	}
+
+	.text {
+		min-height: 400px;
+		width: 50%;
+		padding: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+	}
+
+	main {
+		display: flex;
+		padding: 1%;
+	}
+
+p {
+	margin: 1% 0;
+	font-size: 20px;
+}
+
+footer {
+	position: absolute;
+	top: 98%;
+	width: 100%;
+	text-align: center;
+}
+
+footer > p {
+	margin: 0;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 27px;
+}
+
+img#foto2 {
+	width: 300px;
+	margin: auto;
+}
+
+#slideShow {
+	 background-image: url("jobs/jobs-banner.jpg");
+	 width: 100%;
+	 height: 200px;
+	 background-position: center;
+	 background-size: cover;
+	 display: flex;
+	 transition: 1s ease-in-out;
+}
+
+#bannerc {
+	background-image: url("contact/contact-banner.jpg");
+	width: 100%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	transition: 1s ease-in-out;
+}
+
+img#foto3 {
+	width: 880px;
+	margin-top: 25px;
+}
